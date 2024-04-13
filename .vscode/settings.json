@@ -2,12 +2,19 @@
     "workbench.iconTheme": "vs-seti",
     "cSpell.words": [
         "bbyte",
+        "defocus",
+        "etai",
+        "etat",
         "gbyte",
         "lambertian",
+        "lookat",
+        "lookfrom",
         "rbyte",
         "RTWEEKEND",
         "Scanlines",
+        "Schlick's",
         "sqrtd",
-        "tmin"
+        "tmin",
+        "vfov"
     ]
 }

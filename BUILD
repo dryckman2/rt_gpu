@@ -27,6 +27,7 @@ cc_library(
 cc_library(
     name = "materials",
     srcs = [
+        "materials/dielectric.h",
         "materials/lambertian.h",
         "materials/material.h",
         "materials/metal.h",
