@@ -1,6 +1,10 @@
 {
     "workbench.iconTheme": "vs-seti",
     "cSpell.words": [
+        "bbyte",
+        "gbyte",
+        "lambertian",
+        "rbyte",
         "RTWEEKEND",
         "Scanlines",
         "sqrtd",

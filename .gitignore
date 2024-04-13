@@ -1,5 +1,5 @@
-bazel-bin/
-bazel-out/
-bazel-rtx_weekend_gpu/
-bazel-testlogs/
 bazel.exe
+bazel-bin
+bazel-out
+bazel-rt_gpu
+bazel-testlogs
