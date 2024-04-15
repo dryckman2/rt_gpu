@@ -1,6 +1,8 @@
 {
     "workbench.iconTheme": "vs-seti",
     "cSpell.words": [
+        "AABB",
+        "adinv",
         "bbyte",
         "defocus",
         "etai",
@@ -9,8 +11,11 @@
         "lambertian",
         "lookat",
         "lookfrom",
+        "perlin",
+        "pertext",
         "rbyte",
         "RTWEEKEND",
+        "rvec",
         "Scanlines",
         "Schlick's",
         "sqrtd",

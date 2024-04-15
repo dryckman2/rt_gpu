@@ -1,5 +1,8 @@
 #include "material.h"
 
+#ifndef DIELECTRIC_H
+#define DIELECTRIC_H
+
 class dielectric : public material
 {
 public:
@@ -23,7 +26,7 @@ public:
         else
             direction = refract(unit_direction, rec.normal, ri);
 
-        scattered = ray(rec.p, direction);
+        scattered = ray(rec.p, direction, r_in.time());
         return true;
     }
 
@@ -40,3 +43,5 @@ private:
         return r0 + (1 - r0) * pow((1 - cosine), 5);
     }
 };
+
+#endif
