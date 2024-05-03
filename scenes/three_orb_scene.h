@@ -27,6 +27,7 @@ int three_orb_scene(int image_width, int samples_per_pixel, int max_depth)
     cam.image_width = image_width;
     cam.samples_per_pixel = samples_per_pixel;
     cam.max_depth = max_depth;
+    cam.background = color(0.70, 0.80, 1.00);
 
     cam.vfov = 90;
     cam.lookfrom = point3(-2, 2, 1);

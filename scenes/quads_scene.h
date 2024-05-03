@@ -1,4 +1,4 @@
-#include "extras/rtweekend.h"
+#include "../extras/rtweekend.h"
 
 #include "../hittables/hittable_list.h"
 #include "../hittables/quad.h"
@@ -35,6 +35,7 @@ void quads_scene(int image_width, int samples_per_pixel, int max_depth)
     cam.lookfrom = point3(0, 0, 9);
     cam.lookat = point3(0, 0, 0);
     cam.vup = vec3(0, 1, 0);
+    cam.background = color(0.70, 0.80, 1.00);
 
     cam.defocus_angle = 0;
 

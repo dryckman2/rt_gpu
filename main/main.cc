@@ -1,11 +1,13 @@
 #include <iostream>
 
-#include "../scenes/checkered_spheres.h"
+#include "../scenes/checkered_spheres_scene.h"
 #include "../scenes/perlin_spheres_scene.h"
 #include "../scenes/earth_scene.h"
 #include "../scenes/quads_scene.h"
 #include "../scenes/random_sphere_scene.h"
 #include "../scenes/three_orb_scene.h"
+#include "../scenes/simple_light_scene.h"
+#include "../scenes/cornell_box_scene.h"
 
 const int image_width = 800;
 const int samples_per_pixel = 100;
@@ -20,7 +22,9 @@ int main()
     3 => Checkered Spheres\n\
     4 => Earth\n\
     5 => Perlin Spheres\n\
-    6 => Quads\n ";
+    6 => Quads\n\
+    7 => Simple Light Scene\n\
+    8 => Cornell Box Scene\n ";
   std::clog << "Please Select a scene: ";
   std::cin >> scene_number;
   switch (scene_number)
@@ -48,8 +52,18 @@ int main()
   case 6:
     quads_scene(image_width, samples_per_pixel, max_depth);
     break;
+
+  case 7:
+    simple_light_scene(image_width, samples_per_pixel, max_depth);
+    break;
+
+  case 8:
+    cornell_box_scene(image_width, samples_per_pixel, max_depth);
+    break;
+
   default:
-    std::clog << "Invalid Scene Selected\n";
+    std::clog
+        << "Invalid Scene Selected\n";
     break;
   }
 
