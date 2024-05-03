@@ -1,6 +1,6 @@
 
 #include "../hittables/hittable_list.h"
-#include "../camera.h"
+#include "main/camera.h"
 #include "../materials/lambertian.h"
 #include "../materials/dielectric.h"
 #include "../materials/metal.h"

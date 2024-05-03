@@ -1,7 +1,7 @@
 #ifndef HITTABLE_H
 #define HITTABLE_H
 
-#include "../rtweekend.h"
+#include "../extras/rtweekend.h"
 #include "../materials/material.h"
 #include "../math_structures/aabb.h"
 

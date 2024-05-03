@@ -1,7 +1,7 @@
 #ifndef IMAGE_TEXTURE_H
 #define IMAGE_TEXTURE_H
 
-#include "../rtw_stb_image.h"
+#include "extras/rtw_stb_image.h"
 #include "texture.h"
 
 class image_texture : public texture

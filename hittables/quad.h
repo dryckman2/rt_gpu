@@ -1,7 +1,7 @@
 #ifndef QUAD_H
 #define QUAD_H
 
-#include "../rtweekend.h"
+#include "extras/rtweekend.h"
 
 #include "hittable.h"
 

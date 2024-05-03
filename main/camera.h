@@ -1,7 +1,7 @@
 #ifndef CAMERA_H
 #define CAMERA_H
 
-#include "rtweekend.h"
+#include "extras/rtweekend.h"
 
 #include "hittables/hittable.h"
 #include "math_structures/vec3.h"

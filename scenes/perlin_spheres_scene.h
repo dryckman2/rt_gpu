@@ -1,10 +1,10 @@
-#include "../rtweekend.h"
+#include "extras/rtweekend.h"
 
 #include "../hittables/hittable_list.h"
 #include "../hittables/sphere.h"
 #include "../textures/noise_texture.h"
 #include "../materials/lambertian.h"
-#include "../camera.h"
+#include "main/camera.h"
 
 void perlin_spheres_scene(int image_width, int samples_per_pixel, int max_depth)
 {

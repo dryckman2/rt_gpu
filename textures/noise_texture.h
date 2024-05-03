@@ -2,7 +2,7 @@
 #define NOISE_TEXTURE_H
 
 #include "texture.h"
-#include "../perlin.h"
+#include "../extras/perlin.h"
 
 class noise_texture : public texture
 {

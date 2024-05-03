@@ -1,7 +1,7 @@
 #ifndef MATERIAL_H
 #define MATERIAL_H
 
-#include "../rtweekend.h"
+#include "../extras/rtweekend.h"
 
 class hit_record;
 
