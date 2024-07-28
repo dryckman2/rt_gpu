@@ -13,10 +13,7 @@ const int image_width = 800;
 const int samples_per_pixel = 100;
 const int max_depth = 50;
 
-int main()
-{
-  int scene_number;
-  std::clog << "Scenes:\n\
+const std::string_view scene_string = "Scenes:\n\
     1 => Three Orb\n\
     2 => Random Sphere\n\
     3 => Checkered Spheres\n\
@@ -25,6 +22,11 @@ int main()
     6 => Quads\n\
     7 => Simple Light Scene\n\
     8 => Cornell Box Scene\n ";
+
+int main()
+{
+  int scene_number;
+  std::clog << scene_string;
   std::clog << "Please Select a scene: ";
   std::cin >> scene_number;
   switch (scene_number)
