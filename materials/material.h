@@ -2,6 +2,7 @@
 #define MATERIAL_H
 
 #include "../extras/rtweekend.h"
+#include "../math_structures/onb.h"
 
 class hit_record;
 
@@ -16,9 +17,14 @@ public:
     }
 
     virtual bool scatter(
-        const ray &r_in, const hit_record &rec, color &attenuation, ray &scattered) const
+        const ray &r_in, const hit_record &rec, color &attenuation, ray &scattered, double &pdf) const
     {
         return false;
+    }
+    virtual double scattering_pdf(const ray &r_in, const hit_record &rec, const ray &scattered)
+        const
+    {
+        return 0;
     }
 };
 

@@ -3,7 +3,9 @@ cc_library(
     srcs = [
         "checkered_spheres_scene.h",
         "cornell_box_scene.h",
+        "cornell_box_smoke_scene.h",
         "earth_scene.h",
+        "final_scene.h",
         "perlin_spheres_scene.h",
         "quads_scene.h",
         "random_sphere_scene.h",

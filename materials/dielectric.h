@@ -8,8 +8,8 @@ class dielectric : public material
 public:
     dielectric(double refraction_index) : refraction_index(refraction_index) {}
 
-    bool scatter(const ray &r_in, const hit_record &rec, color &attenuation, ray &scattered)
-        const override
+    bool scatter(
+        const ray &r_in, const hit_record &rec, color &attenuation, ray &scattered, double &pdf) const override
     {
         attenuation = color(1.0, 1.0, 1.0);
         double ri = rec.front_face ? (1.0 / refraction_index) : refraction_index;

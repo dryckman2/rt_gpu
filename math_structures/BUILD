@@ -4,6 +4,7 @@ cc_library(
         "aabb.h",
         "color.h",
         "interval.h",
+        "onb.h",
         "ray.h",
         "vec3.h",
     ],
